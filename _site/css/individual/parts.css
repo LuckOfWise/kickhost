@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/*----------------------------------------
+■ clearfix
+----------------------------------------*/
+
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display:block;
+	overflow:hidden;
+}
+.clearfix:after {
+	clear:both;
+}
+.clearfix {
+	zoom:1;
+}
+
+/*----------------------------------------
+■ fl
+----------------------------------------*/
+
+.fl-2_01 {
+}
+.fl-2_01 section.left {
+	width: 375px;
+	float: left;
+}
+.fl-2_01 section.right {
+	width: 540px;
+	float: right;
+}
+
+/*----------------------------------------
+■ other
+----------------------------------------*/
+
+.link-blank {
+	background-image: url(../../image/base/link-bg_blank.png);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 20px;
+}
+/**/
+.dl_01 {
+	position: relative;
+}
+.dl_01 dt {
+	position: absolute;
+	left: 0;
+	width: 6em;
+}
+.dl_01 dd {
+	padding-left: 6.5em;
+}
+.dl_02 {
+	position: relative;
+}
+.dl_02 dt {
+	position: absolute;
+	left: 0;
+	width: 6em;
+	margin-bottom: 7px;
+	padding-bottom: 5px;
+}
+.dl_02 dd {
+	padding-left: 6.5em;
+	margin-bottom: 7px;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #E5E5E5;
+}
