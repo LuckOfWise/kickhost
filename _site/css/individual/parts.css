@@ -70,3 +70,10 @@
 	padding-bottom: 5px;
 	border-bottom: solid 1px #E5E5E5;
 }
+/**/
+.mb00 {
+	margin-bottom: 0px !important;
+}
+.mb05 {
+	margin-bottom: 5px !important;
+}
