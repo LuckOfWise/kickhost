@@ -133,7 +133,7 @@ article.works {
 	width: 240px;
 }
 #side .tweet {
-	margin-left: 25px;
+	margin: 0 10px;
 }
 #side .twtr-tweet-text, .twtr-hd, .twtr-ft {
 	/*font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Verdana,'メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;*/
