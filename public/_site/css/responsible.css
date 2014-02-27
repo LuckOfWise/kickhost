@@ -1,0 +1,96 @@
+@charset "utf-8";
+@media screen and (max-width: 768px) {
+body {
+	background-color: #E6E6E6;
+}
+#wrapper {
+	max-width: 738px;
+	margin: 0 auto;
+}
+header, #contents, #topicpath, #side, footer {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+}
+@media screen and (max-width: 480px) {
+body {
+	background-color: #FF3;
+}
+#wrapper {
+	/**/max-width: 460px;
+	margin: 0 auto;
+}
+header, #contents, #side, footer {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+.list-page p.thumb {
+	float: none;
+}
+.list-page div {
+	margin-left: 0px;
+}
+header h1 a {
+	float: none;
+}
+nav ul {
+	margin-left: 0px;
+}
+}
+@media screen and (max-width: 320px) {
+body {
+	background-color: #FF3;
+}
+#wrapper {
+	/**/max-width: 310px;
+	margin: 0 auto;
+}
+header, #contents, #side, footer {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+.list-page p.thumb {
+	float: none;
+}
+.list-page div {
+	margin-left: 0px;
+}
+header h1 a {
+	float: none;
+}
+nav ul {
+	margin-left: 0px;
+}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+body {
+	background-color: #FF3;
+}
+#wrapper {
+	/**/max-width: 310px;
+	margin: 0 auto;
+}
+header, #contents, #side, footer {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+.list-page p.thumb {
+	float: none;
+}
+.list-page div {
+	margin-left: 0px;
+}
+header h1 a {
+	float: none;
+}
+nav ul {
+	margin-left: 0px;
+}
+}
+}

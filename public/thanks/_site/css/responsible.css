@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* 
+----------------------------------------- */
+
+* {
+	float: none !important;
+	width: auto !important;
+	font-size: 15px !important;
+}
+
+/**/
+img {
+	max-width: 100% !important;
+	height: auto;
+}
+/**/
+header * {
+	position: static !important;
+	top: 0px !important;
+	left: 0px !important;
+}
+/**/
+ul.list_nrm.fl li, ul.list_dot.fl li, ul.list_sqr.fl li, ol.list_num.fl li {
+	white-space: normal;
+}
+dl.dl_01 dd {
+	margin-left: 0;
+}
+
+/* 
+----------------------------------------- */
+
+#pagetop {
+	padding-top: 45px;
+}
+#outer {
+	padding: 0% 5%;
+	height: auto !important;
+}
+nav.nav_app .inr {
+	margin-bottom: 30px;
+}
+nav.nav_app .inr {
+	margin-right: 0px;
+}
+.col_06 ul li {
+	width: 100%;
+	text-align: center;
+}
+.col_01 .left {
+	padding-top: 15px;
+}
+.col_02 .left {
+	padding-top: 15px;
+}
+.col_03 .inr {
+	margin: 0px 0px 0px 0px;
+}
+.col_04 .left .inr {
+	margin: 0px 0px 0px 0px;
+}
+body#body_other #outer.outer_01 {
+	padding-top: 15px;
+}
+.col_05 .inr {
+	margin: 0px 00px 0px 0px;
+}
+ul.list_nrm.fl li, ul.list_dot.fl li, ul.list_sqr.fl li, ol.list_num.fl li {
+	float: left !important;
+}
+
+/*■naviここから*/
+
+/*
+---------------------------------------- */
+
+body#body_home nav ul{
+	margin: 0 auto !important;
+	width: 238px !important;
+}
+body#body_home nav li {
+	float: left !important;
+	display: inline !important;
+}
+body#body_home nav a {
+	display: block !important;
+}
+body#body_home nav li a {
+	overflow: hidden !important;
+	text-decoration: none !important;
+	text-indent: -9999px !important;
+}
+body#body_home nav li a {
+	height: 210px !important;
+	width: 18px !important;
+	background-repeat: no-repeat !important;
+}

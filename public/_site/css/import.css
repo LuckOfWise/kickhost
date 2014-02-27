@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+@import "../../_common/css/reset.css";
+@import "base/structure.css";
+@import "base/navi.css";
+@import "individual/parts.css";
